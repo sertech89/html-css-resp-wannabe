@@ -18,18 +18,10 @@
   float: left;
 }
 
-.background-h1{
-  background-color:rgba(242,242,205,255) ;
-}
-
-
-
-
-
                                                                           /* 1)   TABLET   */
 
 @media screen and (max-width:768px) {
-  #lezioni .row>.left, #lezioni .row>.right {
+  #lezioni .row>.left, #lezioni .row>.right, .background-h1 {
     width: 100%;
     float: left;
     background-color: rgba(242,242,205,255);
@@ -93,9 +85,6 @@
     width: 100%;
   }
 } */
-
-
-
 
 
 
