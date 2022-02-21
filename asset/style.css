@@ -106,6 +106,8 @@
 }
 
 
+                                                                          /* 1)   TABLET    */
+
 @media screen and (max-width: 768px) {
   #why .row>.left, #why .row>.first,
   #why .row>.second,
@@ -113,6 +115,7 @@
     float: left;
     width: 100%;
     background-color: rgba(242,242,205,255);
+    margin-top: 0;
   }
 }
 
@@ -132,6 +135,7 @@
 .container.grey {
   background-color: #f9f9f9;
 }
+
 
 img {
   height: 200px;
