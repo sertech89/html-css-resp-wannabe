@@ -68,7 +68,7 @@
                                                                                /* 1) TABLET */
 
 @media screen and (max-width: 768px) {
-  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+  #steps .row>.left, #steps .row>.central, #steps .row>.right, .come-funziona{
     float: left;
     width: 100%;
     background-color: white;
