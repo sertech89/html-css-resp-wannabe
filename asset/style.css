@@ -18,6 +18,30 @@
   float: left;
 }
 
+
+
+                                                                          /* 1)   TABLET   */
+
+@media screen and (max-width:768px) {
+  #lezioni .row>.left, #lezioni .row>.right {
+    width: 100%;
+    float: left;
+  }
+}
+
+
+                                                                         /* 2)    MOBILE   */
+
+/* @media screen and (max-width:320px) {
+  #lezioni .row>.left, #lezioni .row>.right {
+    width: 100%;
+    float: left;
+  }
+} */
+
+
+
+
 #lezioni .row img {
   /* per centrare orizzontalmente */
   display: block;
@@ -40,6 +64,32 @@
 #steps {
   text-align: center;
 }
+
+
+                                                                               /* 1) TABLET */
+
+@media screen and (max-width: 768px) {
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+    float: left;
+    width: 100%;
+  }
+}
+
+
+                                                                              /* 2) MOBILE */
+
+
+/* @media screen and (max-width: 320px) {
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+    float: left;
+    width: 100%;
+  }
+} */
+
+
+
+
+
 
 /* BLOCCO PERCHE */
 #why {
